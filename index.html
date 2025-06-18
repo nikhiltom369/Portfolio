@@ -683,5 +683,30 @@ Let’s connect and bring ideas to life through code!</i>
       integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO"
       crossorigin="anonymous"
     ></script> 
+	<script>
+  document.querySelectorAll('.offcanvas .nav-link').forEach(function(link) {
+    link.addEventListener('click', function(e) {
+      const href = link.getAttribute('href');
+      if (href && href.startsWith('#')) {
+        e.preventDefault(); // Prevent default jump
+        const offcanvasEl = document.querySelector('.offcanvas.show');
+        if (offcanvasEl) {
+          // After the sidebar is hidden, scroll to the section
+          offcanvasEl.addEventListener('hidden.bs.offcanvas', function handler() {
+            const target = document.querySelector(href);
+            if (target) {
+              target.scrollIntoView({ behavior: 'smooth' });
+            }
+            // Remove this event listener after it runs once
+            offcanvasEl.removeEventListener('hidden.bs.offcanvas', handler);
+          });
+          // Hide the sidebar
+          const offcanvas = bootstrap.Offcanvas.getInstance(offcanvasEl);
+          offcanvas.hide();
+        }
+      }
+    });
+  });
+</script>
 </body>
 </html>
