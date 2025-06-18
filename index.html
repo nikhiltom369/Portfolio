@@ -1,0 +1,687 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>
+        Nikhil Tom Portfolio
+    </title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+     <script src="https://kit.fontawesome.com/887f6af6f5.js" crossorigin="anonymous"></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT"
+      crossorigin="anonymous"/>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body class="gradient-background">
+  
+ <nav
+      aria-label="Offcanvas navbar large"
+      class="navbar navbar-dark navbar-expand-lg bg-dark"
+    >
+      <div class="container-fluid">
+        <a href="#" class="navbar-brand">Nikhil Tom</a
+        ><button
+          aria-label="Toggle navigation"
+          class="navbar-toggler"
+          type="button"
+          aria-controls="offcanvasNavbar2"
+          data-bs-target="#offcanvasNavbar2"
+          data-bs-toggle="offcanvas"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="offcanvas offcanvas-NavBg offcanvas-end bg-dark text-white"
+          id="offcanvasNavbar2"
+          aria-labelledby="offcanvasNavbar2Label"
+          tabindex="-1"
+        >
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbar2Label">
+              Nikhil Tom
+            </h5>
+            <button
+              aria-label="Close"
+              class="btn-close btn-close-white"
+              type="button"
+              data-bs-dismiss="offcanvas"
+            ></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="flex-grow-1 justify-content-end navbar-nav pe-3">
+              <li class="nav-item">
+                <a href="#home" class="nav-link active" aria-current="page"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a href="#about" class="nav-link active">About</a>
+              </li>
+              <li class="nav-item">
+                <a href="#skills" class="nav-link active">Skills</a>
+              </li>
+               <li class="nav-item">
+                <a href="#resume" class="nav-link active">Resume</a>
+              </li>
+              <li class="nav-item">
+                <a href="#projects" class="nav-link active">Projects</a>
+              </li>
+              </li>
+              <li class="nav-item">
+                <a href="#contact" class="nav-link active">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+    
+
+		</section>
+
+    <!-- Hero Section -->
+<header class="hero-section d-flex align-items-center text-center text-white">
+  <div class="overlay"></div>
+  <div class="container position-relative">
+    <h1 class="display-4 fw-bold">Hi, I'm Nikhil</h1>
+    <p class="lead mt-3">
+      <span id="typed-text" class="fw-semibold"></span>
+    </p>
+  </div>
+</header>
+
+<!-- Hero Section Styling -->
+
+
+<!-- Typed.js Script -->
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+<script>
+  var typed = new Typed("#typed-text", {
+    strings: [
+      "Computer Science Engineering Student",
+      "Web Developer",
+      "AI Enthusiast",
+      "AI Powered Solutions",
+      "Lifelong Learner"
+    ],
+    typeSpeed: 60,
+    backSpeed: 30,
+    backDelay: 1500,
+    loop: true
+  });
+</script>
+
+<!-- About Section -->
+<section id="about" class="about py-5">
+  <div class="container">
+    <div class="section-heading text-center">
+      <h2>ABOUT</h2>
+      <hr class="mx-auto" style="color: white; width: 60px;">
+    </div>
+    <div class="row align-items-center">
+      <div class="col-md-7">
+        <div class="single-about-txt">
+          <p class="fa-1.5x">
+            <i>
+              I'm a final-year Computer Science Engineering student with a strong foundation in programming and software development. My academic background has equipped me with solid knowledge of C, Java, and Python, which I've applied to a variety of academic projects and problem-solving challenges.
+
+Recently, I’ve developed a keen interest in web development and have been exploring the full stack—from designing responsive front-end interfaces with HTML, CSS, and JavaScript to building dynamic, data-driven applications using modern frameworks.
+
+I’m passionate about learning, experimenting with new technologies, and creating solutions that are both functional and user-centric. I'm always eager to take on new challenges, collaborate with others, and grow as a developer.
+
+Let’s connect and bring ideas to life through code!</i>
+          </p>
+          <hr>
+        </div>
+      </div>
+      <div class="col-md-5 text-center">
+        <img src="./assets/meabout.webp" height="400" width="400" alt="profile_image" class="rounded-circle border border-3 border-white shadow">
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Skills Section -->
+<section id="skills" class="py-5" style="background: #000;">
+  <div class="container">
+    <h2 class="pb-2 border-bottom text-center mb-5 text-white">SKILLS</h2>
+    <div class="row g-4">
+      <!-- Programming -->
+      <div class="col-md-4">
+        <div class="d-flex align-items-start">
+          <img width="30" height="30" src="https://img.icons8.com/ios/50/code--v1.png" alt="code--v1" class="me-3"/>
+          <div>
+
+<h3 class="fs-4 text-white mb-3 d-flex align-items-center" style="padding-bottom: 16px;">
+  <img src="https://img.icons8.com/ios/50/code--v1.png" alt="Programming Icon" width="28" class="me-2" style="filter: invert(1);" />
+  Programming
+</h3>
+
+
+
+
+            <ul class="ps-0">
+              <li class="fw-bold mb-2 text-white d-flex align-items-center">
+                <img src="https://img.icons8.com/color/48/000000/c-programming.png" alt="C" width="24" class="me-2"/> C Programming
+              </li>
+              <li class="fw-bold mb-2 text-white d-flex align-items-center">
+                <img src="https://img.icons8.com/color/48/000000/java-coffee-cup-logo.png" alt="Java" width="24" class="me-2"/> Java
+              </li>
+              <li class="fw-bold mb-2 text-white d-flex align-items-center">
+                <img src="https://img.icons8.com/color/48/000000/python.png" alt="Python" width="24" class="me-2"/> Python
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <!-- Database -->
+      <div class="col-md-4">
+        <div class="d-flex align-items-start">
+          <img width="30" height="30" src="https://img.icons8.com/ios/50/database--v1.png" alt="database--v1" class="me-3"/>
+          <div>
+<h3 class="fs-4 text-white mb-3 d-flex align-items-center" style="padding-bottom: 16px;">
+  <img src="https://img.icons8.com/ios/50/database--v1.png" alt="Database Icon" width="28" class="me-2" style="filter: invert(1);" />
+  Database
+</h3>
+            <ul class="ps-0">
+              <li class="fw-bold mb-2 text-white d-flex align-items-center">
+                <img src="https://img.icons8.com/color/48/000000/mysql-logo.png" alt="MySQL" width="24" class="me-2"/> MySQL
+              </li>
+              <li class="fw-bold mb-2 text-white d-flex align-items-center">
+                <img src="https://img.icons8.com/color/48/000000/firebase.png" alt="Firebase" width="24" class="me-2"/> Firebase
+              </li>
+              <li class="fw-bold mb-2 text-white d-flex align-items-center">
+                <img src="https://img.icons8.com/color/48/000000/postgreesql.png" alt="PostgreSQL" width="24" class="me-2"/> PostgreSQL
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <!-- Web Development -->
+      <div class="col-md-4">
+        <div class="d-flex align-items-start">
+          <img width="30" height="30" src="https://img.icons8.com/fluency-systems-filled/48/imac-settings.png" alt="imac-settings" class="me-3"/>
+          <div>
+ <h3 class="fs-4 text-white mb-3 d-flex align-items-center" style="padding-bottom: 16px;">
+  <img src="https://img.icons8.com/ios/50/imac-settings--v1.png" alt="Web Development Icon" width="28" class="me-2" style="filter: invert(1);" />
+  Web Development
+</h3>
+            <ul class="ps-0">
+              <li class="fw-bold mb-2 text-white d-flex align-items-center">
+                <img src="https://img.icons8.com/color/48/000000/html-5--v1.png" alt="HTML" width="24" class="me-2"/> HTML
+              </li>
+              <li class="fw-bold mb-2 text-white d-flex align-items-center">
+                <img src="https://img.icons8.com/color/48/000000/css3.png" alt="CSS" width="24" class="me-2"/> CSS
+              </li>
+              <li class="fw-bold mb-2 text-white d-flex align-items-center">
+                <img src="https://img.icons8.com/color/48/000000/javascript--v1.png" alt="JavaScript" width="24" class="me-2"/> JavaScript
+              </li>
+              <li class="fw-bold mb-2 text-white d-flex align-items-center">
+                <img src="https://img.icons8.com/external-tal-revivo-color-tal-revivo/48/external-django-a-high-level-python-web-framework-that-encourages-rapid-development-logo-color-tal-revivo.png" alt="Django" width="24" class="me-2"/> Django
+              </li>
+              <li class="fw-bold mb-2 text-white d-flex align-items-center">
+                <img src="https://vitejs.dev/logo.svg" alt="Vite" width="24" class="me-2" style="background:#fff; border-radius:4px;"/> React Vite
+              </li>
+              <li class="fw-bold mb-2 text-white d-flex align-items-center">
+                <img src="https://img.icons8.com/color/48/000000/react-native.png" alt="React" width="24" class="me-2"/> React
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Resume Section -->
+<section id="resume" class="py-5">
+  <div class="container">
+    <h2 class="text-center" style="color: #00bfff;">RESUME</h2>
+    <hr class="mx-auto" style="width: 60px;">
+    <div class="row">
+      <!-- Education -->
+      <div class="col-md-6">
+        <h3 class="text-center">Education</h3>
+        <div class="main-timeline">
+          <div class="timeline">
+            <div class="date-outer">2022 - Present</div>
+            <h5 class="title">B.Tech in Computer Science & Engineering</h5>
+            <p class="description">St Joseph's College Of Engineering and Technology,Palai<br>CGPA: 8.40</p>
+          </div>
+          <div class="timeline">
+            <div class="date-outer">2020 - 2022</div>
+            <h5 class="title">Higher Secondary Education</h5>
+            <p class="description">St Thomas HSS,Palai<br>Score: 97.90%</p>
+          </div>
+        </div>
+      </div>
+      <!-- Experience -->
+      <div class="col-md-6">
+  <h3 class="text-center">Experience</h3>
+  <div class="main-timeline">
+    <div class="timeline">
+      <div class="date-outer">2025</div>
+      <h5 class="title">Python Full Stack Development</h5>
+      <p class="description">PanTech eLearning Chennai, Tamil Nadu<br>Hands on experience in Web Development</p>
+    </div>
+    <div class="timeline">
+      <div class="date-outer">2025</div>
+      <h5 class="title">Applied Artificial Intelligence Workshop</h5>
+      <p class="description">Conducted by HEXINOX & SCMS<br>Hands on experience in AI tools - 2 days</p>
+    </div>
+    <div class="timeline">
+      <div class="date-outer">2024</div>
+      <h5 class="title">Web Development Internship</h5>
+      <p class="description">NextGenPro Innovations and Edupark Pvt. Ltd., Kochi<br>Hands on experience in Web Development</p>
+    </div>
+    <div class="timeline">
+      <div class="date-outer">2023</div>
+      <h5 class="title">Game Development Workshop</h5>
+      <p class="description">Conducted by ReverTech.</p>
+    </div>
+    <div class="timeline">
+      <div class="date-outer">2023</div>
+      <h5 class="title">CyberSecurity Workshop – IIT Palakkad</h5>
+      <p class="description">Two Day workshop on cybersecurity 9,10 September.</p>
+    </div>
+    <div class="timeline">
+      <div class="date-outer">2023</div>
+      <h5 class="title">AutoCAD & SketchUp – IIT KGP</h5>
+      <p class="description">Attended a one-day workshop organized by Techmagi & KSHITIJ, IIT Kharagpur.</p>
+    </div>
+    <div class="timeline">
+      <div class="date-outer">2022</div>
+      <h5 class="title">C and CPP Training</h5>
+      <p class="description">Offered by the spoken tutorial project, IIT Bombay.</p>
+    </div>
+    <div class="timeline">
+      <div class="date-outer">2022</div>
+      <h5 class="title">Programming in C</h5>
+      <p class="description">G-TEC Computer Education, 2 months duration.</p>
+    </div>
+  </div>
+</div>
+    </div>
+  </div>
+</section>
+
+<!-- Certifications Section -->
+<section id="certifications" class="py-5">
+  <div class="container" style="background-color: #000; border-radius: 16px;">
+    <div class="section-heading text-center mb-5">
+      <h2 class="text-white">Certifications</h2>
+      <hr class="mx-auto" style="width: 60px;">
+    </div>
+    <div class="row g-4">
+      <!-- Certification cards here -->
+      <div class="col-md-6 col-lg-4">
+        <div class="cert-box d-flex align-items-start p-4 rounded">
+          <div class="cert-icon me-3">
+            <i class="fas fa-robot fa-2x text-teal"></i>
+          </div>
+          <div>
+            <h5 class="mb-1 text-teal">Build RAG Chatbot with Python</h5>
+            <p class="small mb-1">Studied to build a RAG chatbot,in collaboration with DGG MAD,ITM Edu training & NSDC</p>
+            <span class="badge bg-secondary">2025</span>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4">
+        <div class="cert-box d-flex align-items-start p-4 rounded">
+          <div class="cert-icon me-3">
+            <i class="fas fa-robot fa-2x text-teal"></i>
+          </div>
+          <div>
+            <h5 class="mb-1 text-teal">BuildWithIndia</h5>
+            <p class="small mb-1">Completed the First round in the hackathon.</p>
+            <span class="badge bg-secondary">2025</span>
+          </div>
+        </div>
+      </div>
+      <!-- AI Fundamentals -->
+      <div class="col-md-6 col-lg-4">
+        <div class="cert-box d-flex align-items-start p-4 rounded">
+          <div class="cert-icon me-3">
+            <i class="fas fa-robot fa-2x text-teal"></i>
+          </div>
+          <div>
+            <h5 class="mb-1 text-teal">Satwa 36-hrs Hackathon</h5>
+            <p class="small mb-1">Hacakathon on the theme "Innovations for a sustainable and inclusive future,conducted by CODE @ Saintgits </p>
+            <span class="badge bg-secondary">2025</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- AI for All -->
+      <div class="col-md-6 col-lg-4">
+        <div class="cert-box d-flex align-items-start p-4 rounded">
+          <div class="cert-icon me-3">
+            <i class="fas fa-brain fa-2x text-teal"></i>
+          </div>
+          <div>
+            <h5 class="mb-1 text-teal">AI Builder Lab (Bootcamp)</h5>
+            <p class="small mb-1">presented by the Google for Developers and Hack2Skill..</p>
+            <span class="badge bg-secondary">2025</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- NPTEL C -->
+      <div class="col-md-6 col-lg-4">
+        <div class="cert-box d-flex align-items-start p-4 rounded">
+          <div class="cert-icon me-3">
+            <i class="fas fa-code fa-2x text-teal"></i>
+          </div>
+          <div>
+            <h5 class="mb-1 text-teal">NPTEL – Introduction To Operating Systems</h5>
+            <p class="small mb-1">Covered process management, CPU scheduling, memory management (paging & segmentation), file systems, synchronization, and basics of Linux system calls.</p>
+            <span class="badge bg-secondary">2024</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Spectrum Talk -->
+      <div class="col-md-6 col-lg-4">
+        <div class="cert-box d-flex align-items-start p-4 rounded">
+          <div class="cert-icon me-3">
+            <i class="fas fa-microphone fa-2x text-teal"></i>
+          </div>
+          <div>
+            <h5 class="mb-1 text-teal">Smart India Hackathon</h5>
+            <p class="small mb-1">Our Team ALOHA secured a position in top 10</p>
+            <span class="badge bg-secondary">2024</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- AutoCAD Workshop -->
+      <div class="col-md-6 col-lg-4">
+        <div class="cert-box d-flex align-items-start p-4 rounded">
+          <div class="cert-icon me-3">
+            <i class="fas fa-drafting-compass fa-2x text-teal"></i>
+          </div>
+          <div>
+            <h5 class="mb-1 text-teal">Infosys Software Engineering Certificate</h5>
+            <p class="small mb-1">Understanding software engineering and steps in software engineering.</p>
+            <span class="badge bg-secondary">15-oct-2024</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- AutoCAD & SketchUp -->
+      <div class="col-md-6 col-lg-4">
+        <div class="cert-box d-flex align-items-start p-4 rounded">
+          <div class="cert-icon me-3">
+            <i class="fas fa-tools fa-2x text-teal"></i>
+          </div>
+          <div>
+            <h5 class="mb-1 text-teal">AutoCAD & SketchUp Basics – IIT KGP</h5>
+            <p class="small mb-1">One-day design workshop by Techmagi & KSHITIJ, IIT Kharagpur.</p>
+            <span class="badge bg-secondary">2023</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- NOXUS AI -->
+      <div class="col-md-6 col-lg-4">
+        <div class="cert-box d-flex align-items-start p-4 rounded">
+          <div class="cert-icon me-3">
+            <i class="fas fa-lightbulb fa-2x text-teal"></i>
+          </div>
+          <div>
+            <h5 class="mb-1 text-teal">CyberSecurity : Master osquery</h5>
+            <p class="small mb-1">Participated in a workshop exploring cybersecurity fundamentals.</p>
+            <span class="badge bg-secondary">2023</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- Projects Section -->
+<section id="projects" class="py-5">
+  <div class="container text-center">
+    <h2 class="fw-bold mb-4">Projects</h2>
+    <p class="text-muted mb-5">
+      An interactive web application designed to simplify healthy product choices through barcode scanning, ingredient analysis, and personalized recommendations, tailored for users with specific health needs.
+    </p>
+    <div class="row justify-content-center">
+      <div class="col-md-6">
+        <div class="card h-100 shadow-sm">
+
+<img src="assets/images/healthsnap.jpg" 
+     class="card-img-top" 
+     alt="HealthSnap Home Page" 
+     style="width: 180px; height: auto; display: block; margin: 0 auto;">
+
+          <div class="card-body">
+            <h5 class="card-title">HealthSnap</h5>
+            <p class="card-text">
+              This system offers a centralized platform for users to scan product barcodes, analyze ingredients using AI, and receive personalized health recommendations, all through a modern and user-friendly interface.
+            </p>
+            <p class="mt-3">
+              <strong>GitHub repo link:</strong>
+              <a href="https://github.com/HealthSnap-in/HealthSnap-Miniproject.git" target="_blank" style="word-break: break-all;">
+                https://github.com/HealthSnap-in/HealthSnap-Miniproject.git
+              </a>
+              <br>
+              <strong>Live demo:</strong>
+              <a href="https://health-snap-gamma.vercel.app" target="_blank" style="word-break: break-all;">
+                https://health-snap-gamma.vercel.app
+              </a>
+            </p>
+          </div>
+          <div class="card-footer d-flex justify-content-between align-items-center">
+            <small class="text-muted">April 2025</small>
+            <div>
+              <a href="https://github.com/HealthSnap-in/HealthSnap-Miniproject.git" target="_blank" class="btn btn-outline-dark btn-sm me-2">
+                <i class="fab fa-github"></i> GitHub
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <br>
+  <br>
+  <br>
+  <br>
+<div class="container text-center">
+  <p class="text-muted mb-5">
+    A dynamic news aggregator web application that scrapes and displays the latest headlines across multiple categories like Sports, Business, Technology, India, World, and Entertainment using real-time web scraping with no external APIs.
+  </p>
+  <div class="row justify-content-center">
+    <div class="col-md-6">
+      <div class="card h-100 shadow-sm">
+
+        <img src="assets/images/newsaggregator.jpg" 
+             class="card-img-top" 
+             alt="News Aggregator Home Page" 
+             >
+
+        <div class="card-body">
+          <h5 class="card-title">News Aggregator</h5>
+          <p class="card-text">
+            This project delivers real-time news from various sources using Cheerio-based web scraping. Users can explore headlines in multiple categories through a clean and responsive UI with light/dark mode toggle support.
+          </p>
+          <p class="mt-3">
+            <strong>GitHub repo link:</strong>
+            <a href="https://github.com/nikhiltom369/News-Aggregator.git" target="_blank" style="word-break: break-all;">
+              https://github.com/nikhiltom369/News-Aggregator.git
+            </a>
+            <br>
+            <strong>Live demo:</strong>
+            <a href="https://news-delta-ruddy.vercel.app" target="_blank" style="word-break: break-all;">
+              https://news-delta-ruddy.vercel.app
+            </a>
+          </p>
+        </div>
+        <div class="card-footer d-flex justify-content-between align-items-center">
+          <small class="text-muted">June 2025</small>
+          <div>
+            <a href="https://github.com/nikhiltom369/News-Aggregator.git" target="_blank" class="btn btn-outline-dark btn-sm me-2">
+              <i class="fab fa-github"></i> GitHub
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<br>
+  <br>
+  <br>
+  <br>
+  <br>
+
+<div class="container text-center">
+  <p class="text-muted mb-5">
+    A stylish and responsive music streaming web app interface that mimics the look and feel of Spotify. Built using React.js with smooth routing, animations, and clean UI elements for a modern user experience.
+  </p>
+  <div class="row justify-content-center">
+    <div class="col-md-6">
+      <div class="card h-100 shadow-sm">
+
+        <img src="assets/images/musify.jpg" 
+             class="card-img-top" 
+             alt="MusiFy Home Page">
+
+        <div class="card-body">
+          <h5 class="card-title">MusiFy</h5>
+          <p class="card-text">
+            MusiFy is a frontend clone of a music streaming app inspired by Spotify. It includes dynamic pages, responsive design, and interactive elements powered by React.js and React Router, all wrapped in a sleek UI.
+          </p>
+          <p class="mt-3">
+            <strong>GitHub repo link:</strong>
+            <a href="https://github.com/nikhiltom369/MusiFy.git" target="_blank" style="word-break: break-all;">
+              https://github.com/nikhiltom369/MusiFy.git
+            </a>
+            <br>
+
+      <strong>Live demo:</strong>
+            <a href="https://nikhiltom369.github.io/MusiFy/" target="_blank" style="word-break: break-all;">
+              https://nikhiltom369.github.io/MusiFy/
+          </p>
+        </div>
+        <div class="card-footer d-flex justify-content-between align-items-center">
+          <small class="text-muted">January 2025</small>
+          <div>
+            <a href="https://github.com/nikhiltom369/MusiFy.git" target="_blank" class="btn btn-outline-dark btn-sm me-2">
+              <i class="fab fa-github"></i> GitHub
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<br>
+  <br>
+  <br>
+  <br>
+  <br>
+
+
+<div class="container text-center">
+  <p class="text-muted mb-5">
+    An IoT-based Smart Misfuel Detection System designed to prevent accidental refueling of wrong fuel types in vehicles. The system uses sensors to detect misfuelling and alerts the user in real-time, ensuring safety and efficiency.
+  </p>
+  <div class="row justify-content-center">
+    <div class="col-md-6">
+      <div class="card h-100 shadow-sm">
+
+        <img src="assets/images/iot.jpg" 
+             class="card-img-top" 
+             alt="Smart Misfuel Detection System" >
+
+
+        <div class="card-body">
+          <h5 class="card-title">Smart Misfuel Detection System</h5>
+          <p class="card-text">
+            This IoT system detects incorrect fuel types during refueling using sensors integrated with microcontrollers. When misfuelling is detected, it sends real-time alerts to prevent engine damage and improve fuel station safety.
+          </p>
+          <p class="mt-3">
+            <strong>GitHub repo link:</strong>
+            <a href="https://github.com/nikhiltom369/IOT-PROJECT-Smart-Misfuel-Detection-System-.git" target="_blank" style="word-break: break-all;">
+              https://github.com/nikhiltom369/IOT-PROJECT-Smart-Misfuel-Detection-System-.git
+            </a>
+          </p>
+        </div>
+        <div class="card-footer d-flex justify-content-between align-items-center">
+          <small class="text-muted">January 2024</small>
+          <div>
+            <a href="https://github.com/nikhiltom369/IOT-PROJECT-Smart-Misfuel-Detection-System-.git" target="_blank" class="btn btn-outline-dark btn-sm me-2">
+              <i class="fab fa-github"></i> GitHub
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</section>
+
+<!-- Contact Section -->
+<section id="contact" class="py-5">
+  <div class="container">
+    <div class="section-heading text-center mb-5">
+      <h2>Contact Me</h2>
+      <hr class="mx-auto" style="width: 60px;">
+    </div>
+    <div class="card contact-card mx-auto" style="max-width: 400px;">
+      <div class="card-body text-center">
+        <img src="./assets/about.webp" alt="Your Photo" class="contact-photo mb-3">
+        <h4 class="card-title">Nikhil Tom</h4>
+        <p class="card-text">Final Year CSE Student | Web Developer</p>
+        <p class="contact-info"><i class="fas fa-envelope"></i> nikhiltom369@gmail.com</p>
+        <p class="contact-info"><i class="fas fa-map-marker-alt"></i> Palai,Kottayam, Kerala, India</p>
+        <div class="about-list-icon align-items-center">
+          <ul class="list-inline mb-0">
+            <li class="list-inline-item me-2">
+              <a href="https://github.com/nikhiltom369"><i class="fa fa-github fa-2x"></i></a>
+            </li>
+            <li class="list-inline-item me-2">
+              <a href="https://www.linkedin.com/in/nikhil-tom-"><i class="fa fa-linkedin fa-2x"></i></a>
+            </li>
+            <li class="list-inline-item">
+              <a href="https://www.instagram.com/nikhil__tom_"><i class="fa fa-instagram fa-2x"></i></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Footer Section -->
+<footer class="bg-dark text-white py-4">
+  <div class="container d-flex flex-wrap justify-content-between align-items-center">
+    <div class="col-md-6 d-flex align-items-center">
+      <span class="mb-3 mb-md-0">© 2025 Nikhil Tom. All rights reserved</span>
+    </div>
+    <ul class="nav col-md-6 justify-content-end list-unstyled d-flex">
+      <li class="ms-3"><a class="text-white" href="#"><i class="fab fa-instagram"></i></a></li>
+      <li class="ms-3"><a class="text-white" href="#"><i class="fab fa-facebook"></i></a></li>
+    </ul>
+  </div>
+</footer>
+     <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO"
+      crossorigin="anonymous"
+    ></script> 
+</body>
+</html>
